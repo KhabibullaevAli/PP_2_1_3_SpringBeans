@@ -16,7 +16,7 @@ public class AnimalsCage {
     }
 
     @Autowired
-    Timer timer;
+    private Timer timer;
 
     public void whatAnimalSay() {
         System.out.println("Say:");
